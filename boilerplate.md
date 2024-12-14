@@ -1,0 +1,4 @@
+- bun init
+- bun add express body-parser
+- bun add -d typescript @types/node @types/express eslint prettier
+- bun add dotenv
