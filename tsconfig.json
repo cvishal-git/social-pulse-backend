@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
+    "module": "ESNext", // Use ES Modules
+    "moduleResolution": "Node",
+    "target": "ESNext", // For modern JavaScript
     "strict": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
     "rootDir": "./src",
     "resolveJsonModule": true
